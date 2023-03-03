@@ -87,7 +87,7 @@ const product: any[] = [
 
 const Product = () => {
   return (
-    <div className='bg-green-200 w-full min-h-[10rem]'>
+    <div className='w-full min-h-[10rem]'>
       <h1 className='text-center uppercase my-8'>product</h1>
       <div className='flex flex-wrap justify-center w-full gap-8 mb-8'>
         {_.map(product, (index: any, key: number) => (

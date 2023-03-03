@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <div className='bg-blue-200 w-full min-h-[10rem]'>
       <div className="flex flex-col md:flex-row justify-end w-full h-full">
-        <div className="md:w-2/3 bg-blue-200 flex justify-center items-center md:overflow-hidden">
+        <div className="md:w-2/3 bg-gradient-to-r from-white to-blue-200 flex justify-center items-center md:overflow-hidden">
           <h1 className='uppercase my-8'>features</h1>
         </div>
         <div className="bg-[#F5F7F9] grid grid-cols-1 md:w-full md:grid-cols-2 gap-6 text-left p-8">

@@ -5,7 +5,7 @@ import Img from '../components/Img'
 
 const Testimonial = () => {
   return (
-    <div className='bg-yellow-200 w-full min-h-[10rem]'>
+    <div className='w-full min-h-[10rem]'>
       <h1 className='text-center uppercase my-8'>testimonial</h1>
       <div className='flex gap-4 flex-wrap pb-6'>
         {
