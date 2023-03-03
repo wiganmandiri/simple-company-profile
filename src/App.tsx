@@ -51,10 +51,10 @@ function App() {
               <div>Test Company Profile</div>
             </div>
             <ul className="flex flex-row flex-wrap font-semibold gap-4 text-lg">
-              <li className={`${isOpen && (modalName === 'dropdown') ? "bg-gradient-to-r from-trasparent to-blue-100": ""} hover:bg-gradient-to-r from-trasparent to-blue-100  navbar`} onClick={() => handleClick('mega-menu')}>
+              <li className={`${isOpen && (modalName === 'mega-menu') ? "bg-gradient-to-r from-trasparent to-blue-100": ""} hover:bg-gradient-to-r from-trasparent to-blue-100  navbar`} onClick={() => handleClick('mega-menu')}>
                 Mega Menu
               </li>
-              <li className={`${isOpen && (modalName === 'mega-menu') ? "bg-gradient-to-r from-trasparent to-blue-100": ""} hover:bg-gradient-to-r from-trasparent to-blue-100  navbar`} onClick={() => handleClick('dropdown')}>
+              <li className={`${isOpen && (modalName === 'dropdown') ? "bg-gradient-to-r from-trasparent to-blue-100": ""} hover:bg-gradient-to-r from-trasparent to-blue-100  navbar`} onClick={() => handleClick('dropdown')}>
                 Dropdown Menu
               </li>
             </ul>
